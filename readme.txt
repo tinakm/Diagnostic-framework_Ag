@@ -1,4 +1,4 @@
-Top-level directory includes 3 text files (cells, hydro_crop_sample_1, hydro_crop_sample_2) and 
+This directory includes 3 text files (cells, hydro_crop_sample_1, hydro_crop_sample_2) and 
 3 folders (soil_weather, Historical, Future). The description of these files and folders are as following order:
 A-cells.txt
 B-hydro_crop_sample_1.txt

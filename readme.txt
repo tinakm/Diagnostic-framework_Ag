@@ -2,18 +2,19 @@ This directory includes 3 text files (cells, hydro_crop_sample_1, hydro_crop_sam
 3 folders (soil_weather, Historical, Future). The description of these files and folders are as following order:
 A-cells.txt
 B-hydro_crop_sample_1.txt
-C-hydro_crop_sample_2.txt
-D-soil_weather
-E-Historical
-F-Future
+C-hydro_crop_sample_2.txt 
+D-hydro_crop_sample_3.txt
+E-soil_weather
+F-Historical
+G-Future
 The following section briefly describes items A to F:
 A- ########################################################################################
 cells.txt >> contains the name of 16 locations that considered in this study, and in this data repository.
 For example in this file, we do not have term "CF_1" which is in what have been used in the manuscript. Instead, it is named as "476411993_CF".
 
-B and C- ##################################################################################
+B,  C, and D- ##################################################################################
 hydro_crop_sample_1.txt and hydro_crop_sample_2.txt >> are 136,000 sample sets of 33 parameters that are used in the manuscript. The first file contains 72022 samples (rows) and the second file contains the rest of the samples (#63980).
-D- ########################################################################################
+E- ########################################################################################
 soil_weather Folder >> contains one folder for each of the 16 locations (e.g. 476411993_CF subfolder). 
 Inside each of these subfolders, there are 2 files and 3 folders:
 Files:
@@ -22,7 +23,7 @@ Files:
 Folders:
 "BNU-ESM", "MIROC5","MIROC-ESM-CHEM" which are the name of the 3 selected GCMs for the future climate scenario experiment. Each of these folders contains the daily weather data corresponding to that GCM under RCP 8.5 scenario.
 
-E- ########################################################################################
+F- ########################################################################################
 Historical Folder >> contains 16 folders for each of the 16 locations considered in the manuscript and "Baseline" and "Best samples" folders (total of 18 folderes).
 16 Folders with location's ID:
 Inside each of the 16 folders, there are 12 CSV files:
@@ -47,7 +48,7 @@ Contains 3 CSV files corresponded to 3 selected locations for the future climate
 -2_-1: -2% to -3% difference in Yield
 -3_-2: -3% to -2% difference in Yield
 
-F- ##########################################################################################
+G- ##########################################################################################
 Future Folder >> contains 3 folders for 3 selected GCMs-RCP8.5 considered in the manuscript and a "Baseline" folder.
 
 3 GCMs Folders: 

@@ -13,13 +13,14 @@ cells.txt >> contains the name of 16 locations that considered in this study, an
 For example in this file, we do not have term "CF_1" which is in what have been used in the manuscript. Instead, it is named as "476411993_CF".
 
 B,  C, and D- ##################################################################################
-hydro_crop_sample_1.txt and hydro_crop_sample_2.txt >> are 136,000 sample sets of 33 parameters that are used in the manuscript. The first file contains 72022 samples (rows) and the second file contains the rest of the samples (#63980).
+hydro_crop_sample_1, hydro_crop_sample_2, and hydro_crop_sample_3 >> are 136,000 sample sets of 33 parameters that are used in the manuscript. The first and second filse contain 45300 samples (rows) and the third file contains the rest of the samples (#45400).
 E- ########################################################################################
 soil_weather Folder >> contains one folder for each of the 16 locations (e.g. 476411993_CF subfolder). 
-Inside each of these subfolders, there are 2 files and 3 folders:
+Inside each of these subfolders, there are 2 files:
 Files:
 "soil_file_TestCase" which is the VIC-CropSyst soil file for that location, and "data_47.65625_-119"  (data_coordinates) which is the daily historical weather data for that location.
 
+For the cells that are selected for the future climate experiment (453911731_CCF, 461411652_CC, and 476411993_CF), there are also 3 folders inside these subfolders:
 Folders:
 "BNU-ESM", "MIROC5","MIROC-ESM-CHEM" which are the name of the 3 selected GCMs for the future climate scenario experiment. Each of these folders contains the daily weather data corresponding to that GCM under RCP 8.5 scenario.
 
